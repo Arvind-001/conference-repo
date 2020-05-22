@@ -22,15 +22,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PersistenceConfiguration {
 
-	@Bean
-	public DataSource getDataSource() {
+// 	@Bean
+// 	public DataSource getDataSource() {
 		
-		DataSourceBuilder builder = DataSourceBuilder.create();
-		builder.url("jdbc:postgresql://localhost:5432/postgres");
-		builder.username("postgres");
-		builder.password("postgres");
-		System.out.println("This is customized datasource class created ...");
-		return builder.build();
+// 		DataSourceBuilder builder = DataSourceBuilder.create();
+// 		builder.url("jdbc:postgresql://localhost:5432/postgres");
+// 		builder.username("postgres");
+// 		builder.password("postgres");
+// 		System.out.println("This is customized datasource class created ...");
+// 		return builder.build();
 		
-	}
+// 	}
 }
